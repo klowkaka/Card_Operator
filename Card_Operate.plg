@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Card_Operate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\wangzhen\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/Card_Operate.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\wz\惠尔申\自行车\开发\Card_Operate\Card_Operate.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\wangzhen\LOCALS~1\Temp\RSP125.tmp" 
+Creating temporary file "C:\DOCUME~1\wangzhen\LOCALS~1\Temp\RSP126.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/Card_Operate.pdb" /debug /machine:I386 /def:".\Card_Operate.def" /out:"Debug/Card_Operate.dll" /implib:"Debug/Card_Operate.lib" /pdbtype:sept 
+".\Debug\App.obj"
+".\Debug\Card_Operate.obj"
+".\Debug\EncryptMachine.obj"
+".\Debug\M1.OBJ"
+".\Debug\Public.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Card_Operate.res"
+".\Dev.lib"
+".\fct_des.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\wangzhen\LOCALS~1\Temp\RSP126.tmp"
+<h3>Output Window</h3>
+Compiling...
+Card_Operate.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Card_Operate.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

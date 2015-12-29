@@ -1,0 +1,17 @@
+; Card_Operate.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Card_Operate"
+DESCRIPTION  'Card_Operate Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+	Format_Card				@01
+	Clear_Card				@02
+	Read_Card				@03
+	Modify_Card				@04
+	Purchase_Card			@05
+	Load_Card				@06
+	Read_PIDinfo			@07
+	Read_Card_Psam			@08
+	Read_Card_Second_Psam	@09
